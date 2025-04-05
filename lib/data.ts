@@ -104,7 +104,7 @@ export const clubs: Club[] = [
     {
         slug: "robotics-society",
         clubName: "ロボティクス研究会",
-        verified: true,
+        verified: false,
         tags: ["テクノロジー", "エンジニアリング", "大会参加"],
         activityDetails: {
             summary: "様々な大会や展示会のためのロボットを設計、製作、プログラミングします。",
@@ -168,7 +168,7 @@ export const clubs: Club[] = [
     {
         slug: "hibana_univ.kanazawa",
         clubName: "ファイヤーダンスサークル　火華-HIBANA-",
-        verified: false,
+        verified: true,
         profileImage: "https://res.cloudinary.com/hjii6gswv/image/upload/v1741401130/483329587_633570312809898_7241643180933539367_n_oms3ls.jpg",
         affiliation: "非公認",
         memberComposition: {
