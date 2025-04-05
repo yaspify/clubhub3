@@ -7,7 +7,6 @@ import { Suspense } from 'react';
 export default function Page() {
   return (
     <>
-      <h1 className="text-xl font-bold">Search</h1>
       <Suspense fallback={<div>Loading...</div>}>
         <Search clubs={clubs} />
       </Suspense>
