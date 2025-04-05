@@ -190,8 +190,8 @@ export default function Page() {
                 )}
                 
                 {/* Grade levels */}
-                {club.memberComposition.gradeLevels && 
-                 Object.entries(club.memberComposition.gradeLevels).some(([_, value]) => value) && (
+                {/* {club.memberComposition.gradeLevels && 
+                 Object.entries(club.memberComposition.gradeLevels).some(([_grade, value]) => value) && (
                   <div className="sm:col-span-2">
                     <h3 className="text-sm font-medium">学年構成</h3>
                     <div className="grid grid-cols-3 gap-2 mt-1">
@@ -204,7 +204,7 @@ export default function Page() {
                       )}
                     </div>
                   </div>
-                )}
+                )} */}
                 
                 {/* Gender */}
                 {club.memberComposition.gender && (
