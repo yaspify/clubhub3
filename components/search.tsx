@@ -9,7 +9,7 @@ import ClubList from "@/components/club-list";
 import { useMemo } from 'react';
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
-import { SearchIcon, Tag, Users, Calendar, MapPin } from "lucide-react"
+import { SearchIcon, Tag} from "lucide-react"
 
 export default function Search({ clubs }: { clubs: Club[] }) {
   const searchParams = useSearchParams();
