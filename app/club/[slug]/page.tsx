@@ -18,7 +18,6 @@ import {
   Calendar,
   MapPin,
   Clock,
-  DollarSign,
   Award,
   Users,
   CalendarDays,
@@ -183,16 +182,6 @@ export default function ClubDetailPage() {
                   <CardTitle>費用</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  {club.activityDetails.fee && (
-                    <div className="flex items-start gap-3">
-                      <DollarSign className="h-5 w-5 text-muted-foreground shrink-0 mt-0.5" />
-                      <div>
-                        <h3 className="font-medium">活動費</h3>
-                        <p>{club.activityDetails.fee}</p>
-                      </div>
-                    </div>
-                  )}
-
                   {club.activityDetails.membershipFee && (
                     <div className="flex items-start gap-3">
                       <CreditCard className="h-5 w-5 text-muted-foreground shrink-0 mt-0.5" />
